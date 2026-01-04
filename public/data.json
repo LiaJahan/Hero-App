@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/b5pchztK/1.png",
+    "title": "TaskMaster",
+    "companyName": "ProductiveApps Inc",
+    "description": "Manage your tasks efficiently with smart productivity tools.",
+    "size": 25,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/JjdJR90H/tom.png",
+    "title": "FitLife",
+    "companyName": "HealthTech Ltd",
+    "description": "Track workouts, nutrition, and daily fitness goals.",
+    "size": 30,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": "4.2M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/hJKVNMs0/download.png",
+    "title": "Foodie",
+    "companyName": "Gourmet Labs",
+    "description": "Discover recipes, restaurants, and food trends.",
+    "size": 28,
+    "reviews": 870,
+    "ratingAvg": 4.2,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/wNzMMyBY/pngtree-cute-cartoon-baby-elephant-clipart-illustration-perfect-for-childrens-books-and-png-image-13.png",
+    "title": "TravelMate",
+    "companyName": "ExploreMore Co.",
+    "description": "Plan trips, book hotels, and explore destinations.",
+    "size": 35,
+    "reviews": 1100,
+    "ratingAvg": 4.6,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/NgqSBT5J/4-2-cartoon-transparent-thumb.png",
+    "title": "FinanceGuru",
+    "companyName": "FinTech Solutions",
+    "description": "Track expenses, budgets, and investments securely.",
+    "size": 22,
+    "reviews": 780,
+    "ratingAvg": 4.4,
+    "downloads": "6.7M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/Kj2MQp6w/spongebob-cartoon-png-32.png",
+    "title": "PhotoSnap",
+    "companyName": "Creative Labs",
+    "description": "Edit photos and create stunning visuals easily.",
+    "size": 40,
+    "reviews": 900,
+    "ratingAvg": 4.5,
+    "downloads": "5.2M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/mCVBKRF8/29990-5-cute-cartoon-transparent.png",
+    "title": "NewsDaily",
+    "companyName": "MediaCorp",
+    "description": "Breaking news and personalized updates in one app.",
+    "size": 18,
+    "reviews": 600,
+    "ratingAvg": 4.1,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 275 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/rfvYm5qN/png-clipart-tiger-cartoon-cartoon-tiger-cartoon-character-mammal-thumbnail.png",
+    "title": "ShopEase",
+    "companyName": "E-Commerce Co",
+    "description": "Shop smarter with deals, offers, and fast delivery.",
+    "size": 33,
+    "reviews": 1200,
+    "ratingAvg": 4.7,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 665 }
+    ]
+  }
+]
