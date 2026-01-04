@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import {BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip} from 'recharts';
+import appNotFound from '../image/App-Error.png'
 
 const AppsDetailsPage = () => {
  
@@ -31,7 +32,7 @@ const AppsDetailsPage = () => {
   if (!app) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen">
-        <h2 className="text-2xl font-semibold">App Not Found</h2>
+        <img src={appNotFound} alt="App not found" />
       </div>
     );
   }
