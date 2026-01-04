@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router';
-
+import logo from '/image/logo.png'
 const Navbar = () => {
   const navLinkClass = ({ isActive }) =>
     `text-xl px-3 py-2 rounded-md transition-colors duration-200 ${
@@ -44,7 +44,7 @@ const Navbar = () => {
         <Link to="/" className="btn btn-ghost text-xl text-[#7F00FF] flex items-center gap-2">
           <img
             className="h-[30px] w-[30px]"
-            src="/src/assets/image/logo.png"
+            src={logo}
             alt="Hero.io logo"
           />
           HERO.IO

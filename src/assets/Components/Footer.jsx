@@ -1,11 +1,11 @@
 import React from 'react';
-
+import logo from '/image/logo.png'
 const Footer = () => {
     return (
         <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
             <div className='flex items-center justify-between'>
                 <div>
-                    <a className="btn btn-ghost text-xl text-[#7F00FF]"><img className='h-[30px] w-[30px]' src="/src/assets/image/logo.png" alt="" />HERO.IO</a>
+                    <a className="btn btn-ghost text-xl text-[#7F00FF]"><img className='h-[30px] w-[30px]' src={logo} alt="" />HERO.IO</a>
                 </div>
                 
             </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import AppCard from './AppCard';
+import AppNotFound from '/image/App-Error.png'
 
 const Apps = () => {
   const appsData = useLoaderData();
@@ -48,7 +49,9 @@ const Apps = () => {
           ))}
         </div>
       ) : (
-        !loading && <p className="text-center text-gray-600 mt-6">No App Found</p>
+        !loading && 
+        <img src={AppNotFound} alt="No App Found" />
+        // <p className="text-center text-gray-600 mt-6"></p>
       )}
     </div>
   );

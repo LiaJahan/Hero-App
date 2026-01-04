@@ -1,5 +1,5 @@
 import React from 'react';
-
+import hero from '/image/hero.png'
 const FirstLayout = () => {
     return (
         <div className='bg-pink-50 text-center px-20 pt-20'>
@@ -32,7 +32,7 @@ const FirstLayout = () => {
             </div>
             <div className="flex justify-center items-center">
                 <img 
-                    src="/src/assets/image/hero.png" 
+                    src={hero} 
                     alt="Hero" 
                     className="max-w-full h-auto w-[90%] sm:w-[80%] md:w-[60%] lg:w-[45%]" 
                 />
