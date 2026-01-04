@@ -1,6 +1,4 @@
 import { useLoaderData } from 'react-router-dom'
-
-// import { useLoaderData } from 'react-router-dom';
 import './App.css';
 import FirstLayout from './assets/Components/FirstLayout';
 import SecondLayout from './assets/Components/SecondLayout';
@@ -12,9 +10,9 @@ function App() {
 
   return (
     <>
-      <FirstLayout />
-      <SecondLayout />
-      <ThirdLayout cartoons={data} />
+      <FirstLayout></FirstLayout>
+      <SecondLayout></SecondLayout>
+      <ThirdLayout cartoons={data}></ThirdLayout>
     </>
   );
 }
