@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router'; // SPA navigation
+
 const ThirdLayout = ({ cartoons }) => {
   return (
     <div className="bg-pink-50 text-center py-12 px-4">
@@ -15,8 +16,11 @@ const ThirdLayout = ({ cartoons }) => {
       {/* Cards Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center w-full">
         {cartoons?.map((cartoon) => (
-          <div key={cartoon.id} className="card bg-base-100 w-80 shadow-sm">
-
+          <Link
+            key={cartoon.id}
+            to={`/details/${cartoon.id}`} // SPA route handled by your router
+            className="card bg-base-100 w-80 shadow-sm hover:shadow-lg transition-shadow block no-underline"
+          >
             <figure className="px-6 pt-6">
               <img
                 src={cartoon.image}
@@ -26,29 +30,30 @@ const ThirdLayout = ({ cartoons }) => {
             </figure>
 
             <div className="card-body items-center text-center">
-              <h2 className="card-title">{cartoon.title} : {cartoon.description}</h2>
+              <h2 className="card-title text-black">
+                {cartoon.title} : {cartoon.description}
+              </h2>
 
-              {/* <div className="text-sm text-gray-500">
-                ⭐ {cartoon.ratingAvg} • {cartoon.downloads.toLocaleString()} downloads
-              </div> */}
               <div className="flex justify-between items-center w-full mx-2 mt-2">
-
-
-                <button className='border-green-400 bg-green-200 rounded-l p-1'><i class="fa-solid fa-download mr-2"></i>{cartoon.downloads.toLocaleString()}</button>
-                <button className='border-amber-400 bg-amber-200 rounded-l p-1'>⭐ {cartoon.ratingAvg}</button>
+                <button className='border-green-400 bg-green-200 rounded-l p-1'>
+                  <i className="fa-solid fa-download mr-2"></i>{cartoon.downloads.toLocaleString()}
+                </button>
+                <button className='border-amber-400 bg-amber-200 rounded-l p-1'>
+                  ⭐ {cartoon.ratingAvg}
+                </button>
               </div>
-
-
             </div>
-
-          </div>
+          </Link>
         ))}
       </div>
 
-      <Link to="/apps" className="btn mt-10 text-xl text-white rounded-l bg-[#7F00FF] transition-all duration-300">
+      {/* Show All link */}
+      <Link
+        to="/apps"
+        className="btn mt-10 text-xl text-white rounded-l bg-[#7F00FF] transition-all duration-300 inline-block"
+      >
         Show All
       </Link>
-
 
     </div>
   );
